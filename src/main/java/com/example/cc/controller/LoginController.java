@@ -16,7 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class LoginController {
 	
 	@Autowired
-	private UserService userService;
+	private UserService userService;    
 
 	@RequestMapping(value={"/login"}, method = RequestMethod.GET)
 	public ModelAndView login(){
